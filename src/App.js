@@ -23,11 +23,11 @@ function App() {
       console.log(data)
       if(data.data === "Login Successful")
       {
-        navigate("/success")
+        navigate("/Success")
       }
       else
       {
-        navigate("/fail")
+        navigate("/Fail")
       }
     })
   }

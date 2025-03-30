@@ -10,8 +10,8 @@ root.render(
  <BrowserRouter>
  <Routes>
   <Route path='/' element={<App/>}></Route>
-  <Route path='/success' element={<Success/>}></Route>
-  <Route path='/fail' element={<Fail/>}></Route>
+  <Route path='/Success' element={<Success/>}></Route>
+  <Route path='/Fail' element={<Fail/>}></Route>
  </Routes>
  </BrowserRouter>
 );
