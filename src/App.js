@@ -18,7 +18,7 @@ function App() {
   function check()
   {
     //let logindetails = axios.get(`http://localhost:5000/login?username=${user}&password=${pass}`)
-    let logindetails = axios.post("http://localhost:5000/login",{"username":user,"password":pass})
+    let logindetails = axios.post("https://simpleloginbackend.onrender.com/login",{"username":user,"password":pass})
     logindetails.then(function(data){
       console.log(data)
       if(data.data === "Login Successful")
